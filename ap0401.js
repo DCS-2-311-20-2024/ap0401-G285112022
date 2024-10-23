@@ -141,7 +141,7 @@ function init() {
     //  下
     if (ball.position.z + ballR > vLimit) {
       // ball.position.z = vLimit - ballR;
-      stopball();
+      stopBall();
     } 
 
   }
